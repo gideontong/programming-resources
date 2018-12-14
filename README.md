@@ -48,9 +48,13 @@ Websites are easy to update and allow dynamic updating, and are also easy to bui
 
 ### Dynamic Content
 
-Dynamic content is 
+Dynamic content is data that changes based on who sees it or what is entered into it. This might include things like a login system, forums, user profiles, or other platforms that changes who is looking at it or what people want to see.
 
 ### Static Content
+
+Static content is information that is defined and doesn't change on a day-to-day basis. It might be good for webstores, informational websites, blogs, and other platforms (however, a blog would be better hosted on an existing hosting service).
+
+There isn't a lot of programming in creating a static content, instead, you should instead just download a template and create a website with a drag-and-drop WYSIWYG (what you see is what you get) editor.
 
 ## Desktop App
 
@@ -63,6 +67,8 @@ Dynamic content is
 ### Linux/UNIX
 
 ## Browser Extension
+
+Browser extensions are small JavaScript-based applets that within your web browser in order to run scripts or modify the website data.
 
 ### Cross-Platform
 
