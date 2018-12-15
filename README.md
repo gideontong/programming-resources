@@ -40,7 +40,11 @@ Android apps can be built using a multitude of tools, and can even be created us
 
 #### Java
 
+Java is the traditional method of running apps on Android. Android apps typically run in the JVM (Java Virtual Machine) as a layer of code.
+
 #### Kotlin
+
+Kotlin is a newer language that is designed to be inherently better than Java and more efficient, similar in principle to Apple's initiative of creating Swift for iOS.
 
 ## Website
 
@@ -58,7 +62,11 @@ There isn't a lot of programming in creating a static content, instead, you shou
 
 ## Desktop App
 
+Desktop apps are computer programs that run on desktop and laptop computers. They are typically designed to run on bigger screens and support input from a mouse and a keyboard. This can include video games or utilities that run on computers.
+
 ### Cross-Platform
+
+Cross-platform desktop apps tend to run on at least Windows and macOS, with sometimes Linux support. Typically, they are compatible with at least AMD and Intel processors, with occasional support for ARM processors. In most instances, a software project is easy to build for all platforms, but adds additional build time to the development process.
 
 ### Windows
 
