@@ -44,6 +44,8 @@ Android apps can be built using a multitude of tools, and can even be created us
 
 Java is the traditional method of running apps on Android. Android apps typically run in the JVM (Java Virtual Machine) as a layer of code.
 
+[thenewboston](http://bit.ly/2CeEC4m) on YouTube has many good tutorials. Although [this series](http://bit.ly/2LjN1Xj) of YouTube tutorials is quite old and is outdated by now, you should look into it anyways for good programming practices. However, I would not follow this tutorial exactly because Android has since moved on to using Android Studio and other software tools that streamline Android development.
+
 #### Kotlin
 
 Kotlin is a newer language that is designed to be inherently better than Java and more efficient, similar in principle to Apple's initiative of creating Swift for iOS.
