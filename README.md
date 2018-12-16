@@ -74,9 +74,15 @@ Cross-platform desktop apps tend to run on at least Windows and macOS, with some
 
 ### Windows
 
+Windows apps are typically compatible with Intel and AMD processors, but with the recent surge in ARM processors on Windows, including the Qualcomm Snapdragon series processors being included on some newer laptops it is not uncommon to see apps built for ARM.
+
 ### macOS
 
+macOS uses Intel-based processors, but there typically is not any configuration needed because Xcode will do it for you.
+
 ### Linux/UNIX
+
+"Linux users can figure it out."
 
 ## Browser Extension
 
@@ -84,12 +90,12 @@ Browser extensions are small JavaScript-based applets that within your web brows
 
 ### Cross-Platform
 
+Basically all browser extensions are cross-platform, but there are some minor differences and API differences that may cause them to not be entirely cross-platform. However, it is usually quite easy to port extensions between browsers.
+
 ### Google Chrome
 
-### Mozilla Firefox
+Google Chrome runs on the Chromium browser, which also powers Opera, Maxthon, and many other "alternative" browsers. Therefore, it is not uncommon to see extensions that work on Google Chrome to automatically work on other Chromium-based browsers.
 
-### Apple Safari
+### Other Browsers
 
-### Microsoft Edge
-
-You shouldn't build an extension exclusively for Microsoft Edge. It is being phased out of development by Microsoft and will not be supported by them in the near future.
+Mozilla Firefox and Apple Safari have their own set of docs for building extensions, but they are usually similar enough that it can be ported from Google Chrome extensions. You shouldn't build an extension exclusively for Microsoft Edge. It is being phased out of development by Microsoft and will not be supported by them in the near future.
