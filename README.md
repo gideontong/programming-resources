@@ -34,6 +34,8 @@ If you'd like to get started with Objective-C anyways, the Apple documentation b
 
 [Swift](https://apple.co/2QZjQ17) is another multipurpose object-oriented programming language designed to be easy to learn and powerful enough to prevent against mistakes from inexperienced programmers.
 
+If you'd like to get started, [CodeWithChris](http://bit.ly/2A2BpDB) on YouTube has a lot of great videos, and beginners should start with [this playlist](http://bit.ly/2AapaFh).
+
 ### Android
 
 Android apps can be built using a multitude of tools, and can even be created using an iOS or Android device. They are super powerful and offer more flexibility and hardware APIs than iOS apps do. To publish an app on the Google Play Store, you'll need to pay a one-time fee of $25 as well as have access to a web browser to upload your app.
