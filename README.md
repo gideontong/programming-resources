@@ -96,6 +96,10 @@ Basically all browser extensions are cross-platform, but there are some minor di
 
 Google Chrome runs on the Chromium browser, which also powers Opera, Maxthon, and many other "alternative" browsers. Therefore, it is not uncommon to see extensions that work on Google Chrome to automatically work on other Chromium-based browsers.
 
+To get started with building an extension for Google Chrome, you'll want to start with the docs [here](http://bit.ly/2A3E1kK).
+
 ### Other Browsers
 
 Mozilla Firefox and Apple Safari have their own set of docs for building extensions, but they are usually similar enough that it can be ported from Google Chrome extensions. You shouldn't build an extension exclusively for Microsoft Edge. It is being phased out of development by Microsoft and will not be supported by them in the near future.
+
+To get started with building an extension for Mozilla Firefox, you'll want to start with the docs [here](https://mzl.la/2A3PwbG).
