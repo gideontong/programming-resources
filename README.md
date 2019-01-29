@@ -58,6 +58,10 @@ Websites are easy to update and allow dynamic updating, and are also easy to bui
 
 Dynamic content is data that changes based on who sees it or what is entered into it. This might include things like a login system, forums, user profiles, or other platforms that changes who is looking at it or what people want to see.
 
+#### Building a Forum
+
+You don't necessarily have to do any of your programming in order to create a forum. There's a open-source software called [phpBB](https://www.phpbb.com/) that you can use in order to easily and quickly create a forum.
+
 ### Static Content
 
 Static content is information that is defined and doesn't change on a day-to-day basis. It might be good for webstores, informational websites, blogs, and other platforms (however, a blog would be better hosted on an existing hosting service).
