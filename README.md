@@ -1,6 +1,8 @@
 # Programming Resources
 
-This document is a compilation of the programming resources recommended by Gideon Tong for creating a user-facing software project. It contains information on software for creating certain types of software projects as well as tutorials for first-time programmers.
+This website provides programming resources recommended by Gideon Tong for creating a software project of any type. It aims to help new programmers as experienced programmers are expected to understand software design and API docs.
+
+Check out some books [here](/books).
 
 ## Mobile App
 
