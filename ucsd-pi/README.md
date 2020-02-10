@@ -18,6 +18,7 @@ Download the following files and programs to your computer:
 * [Raspbian](https://www.raspberrypi.org/downloads/raspbian/): I reccomend [Raspbian Buster Lite](https://downloads.raspberrypi.org/raspbian_lite_latest) although you can use the desktop version if you want.
 * [Etcher](https://www.balena.io/etcher/): Install this program after downloading.
 * A Code Editor (Like [Notepad++](https://notepad-plus-plus.org/) or [VS Code](https://code.visualstudio.com/)): Notepad will not work because Linux and Windows end lines in text files differently.
+* A SSH Terminal (Like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/)): You might already have a similar tool built in.
 
 ## Gathering Information
 
@@ -55,7 +56,9 @@ You'll need your Raspberry Pi's MAC address in order to register it with ResNet 
 
 ## Preparing a Remote Connection
 
-If you want to skip ahead and prepare something before doing this section, I reccomend doing step 1 of [Getting Online](#Getting-Online).
+If you want to skip ahead and prepare something before doing this section, I reccomend doing step 1 of [Getting Online](#Getting-Online). You'll need to do this section before doing the rest of Getting Online.
+
+I'll update this section soon with information that'll help you.
 
 ## Getting Online
 
@@ -84,4 +87,16 @@ Now that we have the MAC address, we want to register it with ResNet in order to
 
     Do note that if you don't live in the Sixth College Residential Halls, you'll have to put the name of the wireless network for your dorm instead that provides internet access without a password.
 
-6. 
+At this point, you'll want to remotely connect to your Raspberry Pi. But I'll fill out the preparing a remote connection section first.
+
+## Uploading Files
+
+You can upload files using SSH. I'll describe how to do that in the future.
+
+## Running Files
+
+You can run your Python files by typing something like `python3 main.py`. But more information to come in the future.
+
+### Make It a Service
+
+Turns out your script closes when you close your terminal. Here's how to make it run forever. (Information coming soon.)
