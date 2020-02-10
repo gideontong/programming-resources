@@ -67,8 +67,10 @@ If you want to skip ahead and prepare something before doing this section, I rec
 4. If you see a prompt to trust RSA keys or to trust the device, accept it. You may have to type something like `yes` depending on your SSH setup. When prompted for the username, type `pi`. The password is `raspberry`.
 
 5. We will now update the *hostname* of your Raspberry Pi. The hostname is basically your Raspberry Pi's friendly-sounding device name, and right now it's `raspberrypi`. We want to change it so if someone else sets up a Raspberry Pi you don't get confused which one you're connecting to. To do this, run `sudo raspi-config` in your terminal. If you need to enter your password, enter your password.
+   ![raspi-config Settings Menu](raspi-config.png)
 
 6. Scroll down to (2) **Network Options** and press Enter. Then scroll down to (N1) **Hostname** and press Enter. Accept any FCC warnings that popup, then set a new name and press Ok. Exit the `raspi-config` by clicking on all the **Finish** buttons on the dialogs, and restart if you are prompted to. If you are not prompted to, type `sudo reboot` in your terminal. You will now be disconnected from your Raspberry Pi.
+   ![raspi-config Network Settings](raspi-network.png)
 
 7. At this point, you'll notice that your Raspberry Pi will disappear from your connected devices list in your **Mobile hotspot** settings. It should reappear with the hostname that you selected in step 6.
 
