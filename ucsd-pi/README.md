@@ -13,6 +13,8 @@ You'll need:
 * Power Adapter (5V 2A or 5 3A)
 * Windows Computer (*Other guides coming soon?*)
 
+*Technically, you also need a web browser, but how else are you reading my guide?*
+
 Download the following files and programs to your computer:
 
 * [Raspbian](https://www.raspberrypi.org/downloads/raspbian/): I reccomend [Raspbian Buster Lite](https://downloads.raspberrypi.org/raspbian_lite_latest) although you can use the desktop version if you want.
@@ -78,17 +80,11 @@ If you want to skip ahead and prepare something before doing this section, I rec
 
 ### Subsection: Updating Packages
 
-This section isn't required if you followed all the steps above exactly, but it's reccomended. However, you can skip it if you want. The next section you're looking for is [Subsection: Domain Setup](#subsection-domain-setup).
+This section isn't required if you followed all the steps above exactly, but it's reccomended. However, you can skip it if you want. The next section you're looking for is [Getting Online](#getting-online).
 
-### Subsection: Domain Setup
+1. You'll need your Raspberry Pi to be connected to your computer like the previous section. If it's not, repeat steps 6-8 from the section [Gathering Information](#gathering-information). In addition, connect to your Raspberry Pi using an SSH terminal as in steps 2-3 or step 8 of [Preparing a Remote Connection](#preparing-a-remote-connection).
 
-This section is required if you're on a network like UCSD, where every time your Raspberry Pi connects you'll get a new, random IP address. How do you guess your IP address? You don't - here's how to bind it to a name that's easy to write or say.
-
-Todo:
-
-* Setting Up a Domain
-* Setting Up Dynamic DNS
-* Opening a SSH Port
+2. In your SSH terminal, type `sudo apt update`. This will sync your Raspberry Pi's known apps with the internet. Then type `sudo apt upgrade -y`. This will update all the currently installed apps to the latest version.
 
 ## Getting Online
 
@@ -117,30 +113,58 @@ Now that we have the MAC address, we want to register it with ResNet in order to
 
     Do note that if you don't live in the Sixth College Residential Halls, you'll have to put the name of the wireless network for your dorm instead that provides internet access without a password.
 
-At this point, you'll want to remotely connect to your Raspberry Pi. But I'll fill out the preparing a remote connection section first.
+At this point, you'll want to remotely connect to your Raspberry Pi. But how does your Raspberry Pi get online? Follow the following subsetions, starting from [Domain Setup](#subsection-domain-setup).
 
-Todo:
+### Subsection: Domain Setup
 
-* Remotely Connecting to a Pi
-* Entering Basic Commands in a Terminal
+This section is required if you're on a network like UCSD, where every time your Raspberry Pi connects you'll get a new, random IP address. How do you guess your IP address? You don't - here's how to bind it to a name that's easy to write or say.
 
-## Uploading Files
+1. Keep your terminal open, but put it in the backgroud. You'll now need a domain, and we'll be using a feature called Dynamic DNS in order to set this up.
 
-You can upload files using SSH. I'll describe how to do that in the future.
+2. If you already have a domain, great! You can skip to steps ~STEP~ to continue the setup. If not, I reccomend purchasing one from a website like [Google Domains](https://domains.google.com) or [Namecheap](https://www.namecheap.com) if you want a .com domain like [gideontong.com](https://gideontong.com). For a free option, check out [no-ip](https://www.noip.com/). For the purposes of this guide, we'll use no-ip because it's free.
 
-Todo:
+3. On the homepage, pick a hostname and a domain. For the purposes of this guide, I picked `ucsd.hopto.org`. Complete the signup form and process as normal.
 
-* Uploading Files
+4. Return to the Raspberry Pi SSH terminal window, and run `sudo apt install ddclient -y`. This will install an app called DDClient, which will update your Raspberry Pi's IP address whenever it changes.
 
-## Running Files
+5. Next, run `sudo nano /etc/ddclient.conf`. It will open up a text editor. Change everything in the text file to look something like this (this is only relevant if you're using no-ip. I'll also be writing a guide if you're using Namecheap, which you can access [here](namecheap-domain)):
 
-You can run your Python files by typing something like `python3 main.py`. But more information to come in the future.
+    ```conf
+    protocol=dyndns2
+    use=web, web=checkip.dyndns.com/, web-skip='IP Address'
+    server=dynupdate.no-ip.com
+    login=YOUR_USERNAME
+    password=YOUR_PASSWORD
+    YOUR_DOMAIN
+    ```
 
-### Subsection: Make It a Service
+    As an example, my config should look something like this:
 
-Turns out your script closes when you close your terminal. Here's how to make it run forever. (Information coming soon.)
+    ```conf
+    protocol=dyndns2
+    use=web, web=checkip.dyndns.com/, web-skip='IP Address'
+    server=dynupdate.no-ip.com
+    login=gideontong-example-username
+    password=gideontong-example-password12345
+    ucsd.hopto.org
+    ```
 
-Todo:
+6. Then, you'll run the following set of commands:
 
-* Making `systemd` services
-* Using `screen` to your advantage
+    ```bash
+    sudo /etc/init.d/ddclient restart
+    sudo systemctl enable ddclient.service
+    sudo systemctl start ddclient.service
+    ```
+
+7. Now, your Raspberry Pi should automatically run DDClient whenever it changes its IP address, and you'll be able to remotely connect to it whenever it's connected to the internet by connecting to the domain name you picked. To make sure DDClient is running, run the command `sudo systemctl status ddclient.service`.
+
+### Subsection: Remote Connect
+
+1. By the point, you should know how to remotely connect and execute commands on your Raspberry Pi, even if you don't know what commands there are or how to actually use the commands. In your SSH terminal, you'll no longer be using your hostname to connect.
+
+2. Turn off your computer's **Mobile hotspot**, and in a few moments, your Raspberry Pi should connect to your dorm's wireless network. Within a few minutes (usually not less than half an hour, but it could be up to 6-12 hours depending on your service provider), you should be able to replace the hostname you put in PuTTY or the other SSH program of your choice with the domain name you set up in the [previous section](#subection-domain-setup).
+
+## Complete
+
+**At this point, your Raspberry Pi should now be setup and online. To continue the guides, return back to the normal Raspberry Pi guides [here](/pi) on starting your first project.**
