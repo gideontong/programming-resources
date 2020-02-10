@@ -4,6 +4,8 @@ This website provides programming resources recommended by Gideon Tong for creat
 
 Check out some books [here](/books).
 
+Learn how to set up a Raspbery Pi on UCSD's network [here](/ucsd-pi).
+
 ## Mobile App
 
 Mobile apps are apps that run on mobile platforms, typically ARM-based processors with touchscreens like iOS-based iPhones and iPads or Android-based smartphones and tablets.
