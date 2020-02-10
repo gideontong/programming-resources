@@ -60,6 +60,14 @@ If you want to skip ahead and prepare something before doing this section, I rec
 
 I'll update this section soon with information that'll help you.
 
+Todo:
+
+* Updating Hostname
+* Updating Login Credentials
+* Setting Up a Domain
+* Setting Up Dynamic DNS
+* Opening a SSH Port
+
 ## Getting Online
 
 Now that we have the MAC address, we want to register it with ResNet in order to keep the Raspberry Pi connected online.
@@ -89,9 +97,18 @@ Now that we have the MAC address, we want to register it with ResNet in order to
 
 At this point, you'll want to remotely connect to your Raspberry Pi. But I'll fill out the preparing a remote connection section first.
 
+Todo:
+
+* Remotely Connecting to a Pi
+* Entering Basic Commands in a Terminal
+
 ## Uploading Files
 
 You can upload files using SSH. I'll describe how to do that in the future.
+
+Todo:
+
+* Uploading Files
 
 ## Running Files
 
@@ -100,3 +117,8 @@ You can run your Python files by typing something like `python3 main.py`. But mo
 ### Make It a Service
 
 Turns out your script closes when you close your terminal. Here's how to make it run forever. (Information coming soon.)
+
+Todo:
+
+* Making `systemd` services
+* Using `screen` to your advantage
