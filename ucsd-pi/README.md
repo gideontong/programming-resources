@@ -170,3 +170,5 @@ This section is required if you're on a network like UCSD, where every time your
 ## Complete
 
 **At this point, your Raspberry Pi should now be setup and online. To continue the guides, return back to the normal Raspberry Pi guides [here](/pi) on starting your first project.**
+
+If you'd like to learn about uploading files to your Raspberry Pi to use later, you can learn about what SSH is [here](/pi/ssh).
