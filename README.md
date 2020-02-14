@@ -6,6 +6,6 @@ Check out some books [here](/books).
 
 Learn how to set up a Raspbery Pi on UCSD's network [here](/ucsd-pi).
 
-See advice on programming languages [here](/langauges).
+See advice on programming languages [here](/languages).
 
 This was last compiled on 2020.02.14 09.30 AM by [Gideon Tong](https://gideontong.com).
