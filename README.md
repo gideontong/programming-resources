@@ -4,7 +4,7 @@ Welcome to the resources page by Gideon Tong! This website provides guides on ho
 
 Like reading? Check out some books [here](/books).
 
-Learn how to set up a Raspbery Pi on UCSD's network [here](/ucsd-pi).
+Learn how to set up a Raspbery Pi on UCSD's network [here](pi/ucsd).
 
 See advice on programming languages [here](/languages).
 
