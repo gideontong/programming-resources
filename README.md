@@ -20,6 +20,8 @@ Outside of that, the current version of Python's tutorial (At the time of writin
 
 That's fine too! However, cybersecurity tools, tutorials and projects are not currently the focus of this website. Although they are in the works and there are plans to add some soon, there are currently not availble to users of the website. If you would like to contribute, feel free to shoot me an email at [gideon@wehack.ml](mailto:gideon@wehack.ml).
 
+In addition, you can view information about homework assignments [here](/homework).
+
 ## Credits
 
 See the [credits page](/credits) for credits to contributors to the website.
