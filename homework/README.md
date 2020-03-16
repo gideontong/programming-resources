@@ -6,6 +6,8 @@ Schools should be in alphabetical order. Submit a pull request!
 
 ## UCSD
 
+[CSE 12](https://gideontong.github.io/UCSD-CSE12-WI20/)
+
 [CSE 15L](https://gideontong.github.io/UCSD-CSE15L-WI20/)
 
 ## Westlake High School
