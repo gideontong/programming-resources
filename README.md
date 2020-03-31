@@ -4,7 +4,7 @@ Welcome to the resources page by Gideon Tong! This website provides guides on ho
 
 Like reading? Check out some books [here](/books).
 
-See advice on programming languages [here](/languages).
+See advice on programming languages [here](/languages). Or check out the wiki [here](/wiki).
 
 Get the downloads fast and easy [here](/downloads).
 
