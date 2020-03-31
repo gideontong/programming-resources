@@ -21,9 +21,9 @@ html {
 }
 
 body {
-  background: #000;
+  background: #fff;
   font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #BFBFBF;
+  color: #404040;
   line-height: 1.7;
   font-weight: 400;
   font-size: 18px;
@@ -70,7 +70,7 @@ h2 {
 	    vertical-align: middle;
 	    width: 46px;
 	    height: 1px;
-	    background: rgb(63, 44, 37);
+	    background: rgb(192, 211, 218);
 	    margin: 0px 30px;
 	}
 }
@@ -81,7 +81,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: #DDD;
+  color: #222;
 }
 
 p {
@@ -93,26 +93,26 @@ table {
 }
 
 table tr {
-	border-top: 1px solid #333333;
+	border-top: 1px solid #cccccc;
 	background-color: white;
 	margin: 0;
 	padding: 0;
 }
 
 table tr:nth-child(2n) {
-	background-color: #070707;
+	background-color: #f8f8f8;
 }
 
 table tr th {
 	font-weight: bold;
-	border: 1px solid #333333;
+	border: 1px solid #cccccc;
 	text-align: left;
 	margin: 0;
 	padding: 6px 13px;
 }
 
 table tr td {
-	border: 1px solid #333333;
+	border: 1px solid #cccccc;
 	text-align: left;
 	margin: 0;
 	padding: 6px 13px;
@@ -144,16 +144,16 @@ table tr td :last-child {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #333;
+  border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   font-size: 18px;
-  background-color: #000c00;
+  background-color: #fff3ff;
 }
 
 .share-box {
   font-weight: bold;
-  color: #DDD;
+  color: #222;
 }
 
 span[data-pullquote] {
@@ -378,7 +378,7 @@ nav {
     color: $gray;
     font-size: 22px;
     font-style: italic;
-    background-color: #121e00;
+    background-color: #ede1ff;
   }
 
   .you-may-like{
@@ -388,7 +388,7 @@ nav {
     color: $gray;
     font-size: 22px;
     font-style: italic;
-    background-color: #22004a;;
+    background-color: #ddffb5;;
   }
 
   .comments {
@@ -424,7 +424,7 @@ footer {
 }
 
 body:after {
-    background: linear-gradient(to right, #000000   0, #DE690C   33%, #16E19C   66%, #FFF 100%);
+    background: linear-gradient(to right, #ffffff   0, #2196F3   33%, #E91E63   66%, #000 100%);
     width: 100%;
     height: 5px;
     top: 0;
@@ -434,7 +434,7 @@ body:after {
 }
 
 #bar {
-    background: #FFF;
+    background: #000;
     height: 7px;
     background-size: cover;
     background-position: left 60%;
@@ -465,17 +465,17 @@ body:after {
 
 .author_title{
   text-align: center;
-  color: #6c655e;
+  color: #939aa1;
   letter-spacing: 2px;
 }
 
 .post_date{
   text-align: center;
-  color: #6c655e;
+  color: #939aa1;
 }
 
 .cd-container a {
-  color: #cfbcb1;
+  color: #30434e;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
 }
@@ -521,7 +521,7 @@ Modules - reusable parts of our design
   left: 18px;
   height: 100%;
   width: 4px;
-  background: #281b12;
+  background: #d7e4ed;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -568,7 +568,7 @@ Modules - reusable parts of our design
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(255, 255, 255, 0.08), 0 3px 0 4px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img img {
   display: block;
@@ -582,13 +582,13 @@ Modules - reusable parts of our design
   border-radius: 10px;
 }
 .cd-timeline-img.cd-picture {
-  background: #8a3199;
+  background: #75ce66;
 }
 .cd-timeline-img.cd-movie {
-  background: #3fc4bb;
+  background: #c03b44;
 }
 .cd-timeline-img.cd-location {
-  background: #0f35ba;
+  background: #f0ca45;
 }
 
 .chip {
@@ -600,13 +600,13 @@ Modules - reusable parts of our design
     line-height: 32px;
     padding: 0 12px;
     border-radius: 16px;
-    background-color: #1b1b1b;
+    background-color: #e4e4e4;
     margin-bottom: 5px;
     margin-right: 5px;
 }
 
 .yellow.lighten-2 {
-    background-color: #102c06 !important;
+    background-color: #efd3f9 !important;
 }
 
 #gh-latest{
@@ -615,9 +615,9 @@ Modules - reusable parts of our design
 }
 
 .text-link {
-    color: #FFF;
+    color: #000;
     text-decoration: none;
-    border-bottom: 1px dotted #FFF;
+    border-bottom: 1px dotted #000;
 }
 
 //carbon ads
@@ -633,7 +633,7 @@ Modules - reusable parts of our design
   max-width: 270px;
   border-radius: 4px;
   text-align: center;
-  border: dashed 1px #191919;
+  border: dashed 1px #e6e6e6;
   background-color: hsl(0, 0%, 98%);
   font-size: var(--font-size);
   line-height: 1.5;
@@ -700,24 +700,24 @@ Modules - reusable parts of our design
   font-size: 14.5px;
   padding: 2px 13px;
   border: none;
-  background-color: #B350AF;
+  background-color: #4CAF50;
   border-radius: 50px;
-  color: #000;
+  color: #fff;
 }
 
 .pagination a, .pagination span {
   padding: 7px 18px;
-  border: 1px solid #111;
+  border: 1px solid #eee;
   margin-left: -2px;
   margin-right: -2px;
-  background-color: #000000;
+  background-color: #ffffff;
   display: inline-block;
 }
 
 .pagination a {    
   &:hover {
-      background-color: #0e0e0e;
-      color: #CCC;
+      background-color: #f1f1f1;
+      color: #333;
   }
 }
 
@@ -765,14 +765,14 @@ Modules - reusable parts of our design
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #333;
+  border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
 .subscribeBtn {
   width: 30%;
-  background-color: #B350AF;
+  background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -783,10 +783,10 @@ Modules - reusable parts of our design
 }
 
 .tinyletterForm {
-  border: 1px solid #333;
+  border: 1px solid #ccc;
   padding: 3px;
   text-align: center;
-  background: #131313;
+  background: #ececec;
   margin: 8px;
   border-radius: 5px;
 }
@@ -898,10 +898,10 @@ Modules - reusable parts of our design
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: #160f0a;
+  background: #e9f0f5;
   border-radius: 0.25em;
   padding: 1em;
-  box-shadow: 0 3px 0 #281b12;
+  box-shadow: 0 3px 0 #d7e4ed;
 }
 .cd-timeline-content:after {
   content: "";
@@ -909,7 +909,7 @@ Modules - reusable parts of our design
   clear: both;
 }
 .cd-timeline-content h2 {
-  color: #cfc1b6;
+  color: #303e49;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   font-size: 13px;
@@ -925,12 +925,12 @@ Modules - reusable parts of our design
 .cd-timeline-content .cd-read-more {
   float: right;
   padding: .8em 1em;
-  background: #53483f;
+  background: #acb7c0;
   color: white;
   border-radius: 0.25em;
 }
 .no-touch .cd-timeline-content .cd-read-more:hover {
-  background-color: #453b34;
+  background-color: #bac4cb;
 }
 .cd-timeline-content .cd-date {
   float: left;
