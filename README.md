@@ -4,11 +4,13 @@ Welcome to the resources page by Gideon Tong! This website provides guides on ho
 
 Like reading? Check out some books [here](/books).
 
-Learn how to set up a Raspbery Pi on UCSD's network [here](pi/ucsd).
-
 See advice on programming languages [here](/languages).
 
+Get the downloads fast and easy [here](/downloads).
+
 ## Help! I'm totally new.
+
+If you're looking for a UCSD Raspberry Pi tutorial, learn how to set up a Raspbery Pi on UCSD's network [here](pi/ucsd).
 
 If you're totally new to the world of programming, that's okay. All you need is smart device, like a computer, tablet, or phone to get started. Don't have one? Check out your local libraries, as they usually have some internet-connected computers for you to use.
 
