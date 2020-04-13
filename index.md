@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Programming Resources
 
 Welcome to the resources page by Gideon Tong! This website provides guides on how to create a software or hardware (read: computer science) project of any kind. It aims to help new programmers *and* experienced programmers alike, providing good tutorials until they reach the point where simply reading the API docs is "good enough."
