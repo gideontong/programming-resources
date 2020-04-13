@@ -1,6 +1,6 @@
 # Site settings
 title: Programming Resources
-tag_text: <Resources />
+tag_text: &lt;Resources /&gt;
 description: Programming resources for learning something new
 url: "https://resources.gideontong.com"
 baseurl: ""
