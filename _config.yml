@@ -1,8 +1,8 @@
 # Site settings
-title: EpicDrive
-tag_text: Super media network
-description: A internet-connected cloud-powered media network by Gideon Tong
-url: "https://epicdrive.gideontong.com"
+title: Programming Resources
+tag_text: <Resources />
+description: Programming resources for learning something new
+url: "https://resources.gideontong.com"
 baseurl: ""
 
 font-awesome-include: true # make this false if you don't need font-awesome
