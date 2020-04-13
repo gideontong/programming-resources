@@ -1,6 +1,6 @@
 # Site settings
-title: Programming Resources
-tag_text: \<Resources /\>
+title: Real Programming Resources
+tag_text: $le$Resources /$ge$
 description: Programming resources for learning something new
 url: "https://resources.gideontong.com"
 baseurl: ""
